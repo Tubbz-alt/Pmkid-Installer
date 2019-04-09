@@ -3,7 +3,7 @@
 import os, sys, time
 
 print "Começando..."
-os.system("cd /root/");
+os.system("cd /root");
 os.system("apt-get update && apt-get upgrade && apt-get dist-upgrade && apt-get install libssl-dev && apt-get install libz-dev && apt-get install libpcap-dev && apt-get install libcurl4-openssl-dev")
 os.system("mkdir background");
 os.system("clear")
