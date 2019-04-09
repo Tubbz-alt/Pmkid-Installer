@@ -12,6 +12,8 @@ os.system("git clone https://github.com/ZerBea/hcxdumptool.git");
 os.system("git clone https://github.com/ZerBea/hcxtools");
 os.system("mv hcxdumptool /root/background && cd /root/background/hcxdumptool && make && make install");
 os.system("mv hcxtools /root/background && cd /root/background/hcxtools && make && make install");
+os.system("clear")
+print "Concluido"
 
 
 
