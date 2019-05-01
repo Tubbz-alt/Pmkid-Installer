@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 #!/bin/bash
-import os, sys
+import os
 
 print "Começando..."
 os.system("apt-get update && apt-get upgrade && apt-get dist-upgrade && apt-get install libssl-dev && apt-get install libz-dev && apt-get install libpcap-dev && apt-get install libcurl4-openssl-dev")
